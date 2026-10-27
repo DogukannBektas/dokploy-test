@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("Merhaba! Bu uygulama kendi sunucumda, Dokploy ile çalışıyor 🚀");
+  res.send("Hello! This is my second version, deployed automatically ✨");
 });
 
 app.get("/health", (req, res) => {
